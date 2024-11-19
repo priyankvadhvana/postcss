@@ -1,0 +1,64 @@
+/* Utility Classes */
+
+/* Spacing Utilities */
+.mt-1 { margin-top: 0.25rem; }   /* Small margin top */
+.mt-2 { margin-top: 0.5rem; }    /* Medium margin top */
+.mt-3 { margin-top: 1rem; }      /* Large margin top */
+
+.mb-1 { margin-bottom: 0.25rem; } /* Small margin bottom */
+.mb-2 { margin-bottom: 0.5rem; }  /* Medium margin bottom */
+.mb-3 { margin-bottom: 1rem; }    /* Large margin bottom */
+
+.p-1 { padding: 0.25rem; }       /* Small padding */
+.p-2 { padding: 0.5rem; }        /* Medium padding */
+.p-3 { padding: 1rem; }          /* Large padding */
+
+/* Flex Utilities */
+.flex { display: flex; }
+.flex-row { flex-direction: row; }
+.flex-col { flex-direction: column; }
+.justify-center { justify-content: center; }
+.justify-between { justify-content: space-between; }
+.items-center { align-items: center; }
+
+/* Display Utilities */
+.d-none { display: none; }
+.d-block { display: block; }
+.d-inline { display: inline; }
+.d-inline-block { display: inline-block; }
+
+/* Text Utilities */
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+.text-sm { font-size: 0.875rem; }  /* Small text */
+.text-md { font-size: 1rem; }     /* Medium text */
+.text-lg { font-size: 1.25rem; }  /* Large text */
+.text-bold { font-weight: bold; } /* Bold text */
+
+/* Colors */
+.text-primary { color: #007bff; }   /* Primary text color */
+.text-secondary { color: #6c757d; } /* Secondary text color */
+.bg-primary { background-color: #007bff; } /* Primary background */
+.bg-secondary { background-color: #6c757d; } /* Secondary background */
+.bg-light { background-color: #f8f9fa; } /* Light background */
+.bg-dark { background-color: #343a40; } /* Dark background */
+
+/* Width & Height Utilities */
+.w-full { width: 100%; }
+.h-full { height: 100%; }
+.max-w-sm { max-width: 20rem; }  /* Small max width */
+.max-w-md { max-width: 28rem; }  /* Medium max width */
+.max-w-lg { max-width: 36rem; }  /* Large max width */
+
+/* Borders */
+.border { border: 1px solid #ddd; }
+.border-none { border: none; }
+.rounded { border-radius: 0.25rem; }
+.rounded-full { border-radius: 9999px; }
+
+/* Shadows */
+.shadow-sm { box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); }
+.shadow-md { box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
+.shadow-lg { box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); }
