@@ -1,0 +1,23 @@
+{
+  "name": "postcss",
+  "version": "1.0.0",
+  "description": "Basic setup of postcss.",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss src/css/index.css -o dist/styles.min.css",
+    "watch": "postcss src/css/index.css -o dist/styles.min.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "cssnano": "^7.0.6",
+    "postcss": "^8.4.49",
+    "postcss-cli": "^11.0.0",
+    "postcss-custom-media": "^11.0.5",
+    "postcss-import": "^16.1.0",
+    "postcss-loader": "^8.1.1",
+    "postcss-nested": "^7.0.2"
+  }
+}
